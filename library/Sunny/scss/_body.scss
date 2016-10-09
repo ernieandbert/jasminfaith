@@ -1,0 +1,137 @@
+//_body
+
+@font-face {
+  font-family: 'ProximaNova-Bold';
+  src: url('../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/ProximaNova-Bold/ProximaNova-Bold.woff') format('woff'), url('../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf')  format('truetype'), url('../fonts/ProximaNova-Bold/ProximaNova-Bold.svg#ProximaNova-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+img#regSub, img#logSub, img#upsub {
+	height: 60px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.whiteFont {
+	color: white;
+}
+
+.bananas {
+	height:11%;
+	background: url('../images/bananas.png') fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.seasons {
+	padding-top: 50px;
+}
+
+.auto {
+	display: block;
+	margin: 0 auto;
+}
+
+.lineHeight {
+	line-height: 45px;
+}
+
+.footer {
+	position: absolute;
+	z-index: 5;
+}
+
+.menu {
+	height: 60px;
+	padding-top: 10px; 
+}
+
+.yellow {
+	color: #f7cc1d;
+}
+
+.desc {
+	font-size: 90px;
+}
+
+#secondNav {
+	display: none;
+}
+
+.white {
+	background-color: white;
+}
+
+#logo {
+	height: 50px;
+	display: block;
+  	margin: 10px auto;
+}
+
+.float {
+	font-size: 70px;
+	position: absolute;
+	z-index: 2;
+	color: #f7cc1d;
+}
+
+.font {
+	font-family: 'ProximaNova-Bold', sans-serif;
+}
+
+body {
+	background-color: black;
+}
+
+.logo {
+	margin-top: 10px;
+}
+
+a {
+	color: white;
+	font-size: 23px;
+	font-family: 'ProximaNova-Bold';
+
+	a:hover {
+		color: #f7cc1d;
+	}
+}
+
+section.sunnyHeads {
+	height:40%;
+	background: url('../images/background.jpg') fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.top-bar-section ul li>a {
+	font-family: 'ProximaNova-Bold';
+}
+
+nav.top-bar {
+	background-color: #000000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #000000;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background: #000000;
+	color: #f7cc1d;
+}
+
+nav.top-bar {
+	text-align: center;
+}
+
+button.font {
+	background-color: #f7cc1d;
+}
+
+section.top-bar-section {
+	display: inline-block;
+}

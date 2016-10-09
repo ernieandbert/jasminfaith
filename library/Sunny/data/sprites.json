@@ -1,0 +1,18 @@
+{
+	"bat":{"sx":2,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":12},
+	"snail":{"sx":40,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":11},	
+	"blob":{"sx":62,"sy":2,"cols":1,"tilew":11,"frames":1,"tileh":7},	
+	"clover":{"sx":79,"sy":2,"cols":1,"tilew":15,"frames":1,"tileh":16},	
+	"ghost":{"sx":21,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":21},
+	"bee":{"sx":97,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":14},
+	"player":{"sx":192,"sy":2,"cols":2,"tilew":14,"frames":6,"tileh":21},
+	"frog":{"sx":116,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":11},
+	"mouse":{"sx":135,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":10},	
+	"spider":{"sx":154,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":10},
+	"worm":{"sx":171,"sy":2,"cols":1,"tilew":17,"frames":1,"tileh":6},
+	"charlie":{"sx":285,"sy":2,"cols":1,"tilew":12,"frames":1,"tileh":21},
+	"dee":{"sx":299,"sy":2,"cols":1,"tilew":12,"frames":1,"tileh":21},
+	"frank":{"sx":313,"sy":2,"cols":1,"tilew":20,"frames":1,"tileh":21},
+	"dennis":{"sx":335,"sy":2,"cols":1,"tilew":13,"frames":1,"tileh":21}
+}
+	
