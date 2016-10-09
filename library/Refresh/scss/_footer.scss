@@ -1,0 +1,30 @@
+//FOOTER
+
+footer {
+	border-top: 1px solid #ebebeb;
+	margin-top: 50px;
+}
+
+.foot {
+	position: relative;
+
+	li a {
+		font-family: 'OratorStd', helvetica;
+		color: black;
+		padding-top: 25px;
+		font-size: 16px;
+	}
+
+	a:hover {
+		color: #47b749;
+	}
+}
+
+.foot ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.foot li {
+	display: inline-block;
+}

@@ -1,0 +1,62 @@
+// Nav
+
+.logo {
+	height:45px;
+	padding: 3px;
+}
+
+.nav {
+	background-color: white;
+	height: 45px;
+	border-bottom: 1px solid #ebebeb;
+
+}
+
+.top-bar,
+.top-bar-section .dropdown li:not(.has-form):not(.active)>a:not(.button),
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #000000;
+}
+
+.smallLogo {
+	height: 20px;
+}
+
+.navigation {
+	position: relative;
+
+	li a {
+		font-family: 'OratorStd', helvetica;
+		color: black;
+		height: 28px;
+		padding-top: 8px;
+		font-size: 18px;
+	}
+
+	a:hover {
+		color: #47b749;
+	}
+}
+
+.mainThree {
+
+	position: relative;
+
+	img {
+
+		width: 100%;
+	}
+
+}
+
+.mainLogo {
+	position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+	z-index: 3;
+	width: 60%;
+	opacity: 0.8;
+	margin-top: 16%;
+}
