@@ -1,0 +1,285 @@
+
+body, h1, nav ul li a {
+    font-family: 'Roboto', sans-serif !important;
+    margin: 0;
+    color: #4049C4 !important;
+}
+
+a.selected.underline {
+  font-weight: 700 !important;
+}
+
+a.underline {
+  font-family: 'Anonymous Pro', monospace !important;
+  font-weight: 400 !important;
+  letter-spacing: 4px;
+}
+
+h1 {
+  font-size: 5.2em !important;
+  line-height: 90px !important;
+  font-weight: 900 !important;
+}
+
+h2 {
+  font-size: 4.5em !important;
+}
+
+p {
+  font-size: 1.4em !important;
+  color: #4049C4;
+  font-weight: 500 !important;
+}
+
+nav {
+  display: inline-block;
+  height: 80px;
+  width:100%;
+  background-color: white;
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  transform: translateY(25%);
+  display: inline-block;
+  float: left;
+  height: 56px;
+  margin-left: 24px;
+}
+
+ul {
+  margin: 0 !important;
+  transform: translateY(25%);
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 !important;
+  padding: 0px 12px 0px 12px;
+}
+
+nav li a {
+  font-size: 2em !important;
+  font-weight: 900 !important;
+}
+
+.socialMedia img {
+  position: relative;
+  transform: translateY(-80%);
+  display: inline-block;
+  float: right;
+  height: 32px;
+  margin-right: 24px;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+/* Social Media Hover Effect */
+.socialMedia img:hover {
+  transform: translateY(-80%) rotate(-16deg);
+}
+
+/* Nav Hover Effect */
+.underline {
+  display: inline;
+  position: relative;
+  overflow: hidden;
+}
+
+.underline:after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  width: 0;
+  bottom: -5px;
+  background: #4049C4;
+  height: 4px;
+  transition-property: width;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+}
+
+.underline:hover:after,
+.underline:focus:after,
+.underline:active:after {
+  left: 0;
+  right: auto;
+  width: 100%;
+}
+
+.grid-x {
+  width: 100vw;
+}
+
+.large-article-header {
+  background: url("../media/jasminfaith.jpg") no-repeat top;
+  background-size: cover;
+  min-height: 40rem;
+  height: 63rem;
+  max-height: 3400px;
+  position: relative;
+}
+
+.large-article-header h1 {
+  float: right;
+  color: white !important;
+  padding: 8% 4%;
+}
+
+.heyo {
+  margin-top: 64px;
+}
+
+/* Wave animation */
+#wave {
+  transform: rotate(10deg);
+  animation: rotation 0.4s infinite alternate backwards;
+  animation-timing-function: ease-in-out;
+}
+
+/* Polaroid images of me*/
+.polaroids {
+  border: 6px solid white !important;
+  box-shadow: 0px 4px 12px rgba(137, 147, 164, .5);
+}
+
+.img1 {
+  margin-top: -8% !important;
+  display: inline-block;
+}
+
+.img2 {
+  margin-top: -70%;
+  margin-left: 75%;
+  display: inline-block;
+}
+
+.bio {
+  margin-top: 20px;
+}
+
+.footer {
+  /* background: linear-gradient(to right, #FF9A8B, #FF6A88, #FF99AC); */
+  background: url("../media/waves.svg") no-repeat;
+  background-size: 100%;
+  height: 240px;
+  margin-top: 200px;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+li label {
+  font-weight: 700;
+  color: white;
+  font-size: 1.2em;
+}
+
+form li input {
+  height: 50px !important;
+  background: #FFFFFF;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+ form li textarea {
+   border: none !important;
+   box-shadow: none !important;
+ }
+
+::placeholder {
+  color: #5E6C84 !important;
+  opacity: .7;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				transform: rotate(10deg);
+		}
+		to {
+				transform: rotate(20deg);
+		}
+}
+
+#workBG {
+  height: 100vh;
+  background-color: #0052CC;
+  width: 100vw;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#Atlassian {
+  display: block;
+  margin: 0 auto !important;
+  padding-top: 180px;
+  width: 400px;
+}
+
+#AtlassianBio {
+  width: 680px;
+  color: white !important;
+  display: block;
+  text-align: center !important;
+  margin: 0 auto;
+  padding-top: 24px;
+}
+
+/* Tablet */
+@media only screen
+  and (min-width: 768px)
+  and (max-width: 1023px) {
+
+    .large-article-header {
+      height: 40rem;
+      position: relative;
+    }
+
+    .large-article-header h1 {
+      margin-right: -8%;
+      padding-right: 0px;
+    }
+
+    p {
+      font-size: 1em !important;
+      color: #4049C4;
+      font-weight: 500 !important;
+    }
+  }
+
+
+/* ----------- Mobile Small ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 1024px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .large-article-header {
+      background: url("../media/jasminfaith.jpg") no-repeat top;
+      background-size: cover;
+    background-repeat: no-repeat;
+      position: relative;
+    }
+
+    h1 {
+      font-size: 3em !important;
+      line-height: 60px !important;
+      font-weight: 900 !important;
+    }
+
+    .large-article-header {
+      height: 1rem;
+      position: relative;
+    }
+
+    .large-article-header h1 {
+      margin-right: -2%;
+      padding-right: 0px;
+    }
+}
