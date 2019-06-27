@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="236px" viewBox="0 0 1440 236" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FF9A8B" offset="0%"></stop>
+            <stop stop-color="#FF6A88" offset="54.5938297%"></stop>
+            <stop stop-color="#FF99AC" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(0.000000, -1797.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group" transform="translate(0.000000, 1797.000000)">
+                <path d="M-1.47792889e-12,234.976611 L1440,234.976611 C1440,167.168952 1440,121.853113 1440,99.0290934 C1164.42814,26.0021484 1056.38314,182.843605 837.187514,182.843605 C513.840861,182.843605 271,-68.1710824 -1.47792889e-12,99.0290934 C-1.47792889e-12,113.062139 -1.47792889e-12,158.377978 -1.47792889e-12,234.976611 Z" id="Path-2" opacity="0.699893043"></path>
+                <path d="M1440,134.453574 C816.51058,188.84426 700.197819,-3.84151377 504.119594,3.89133518 C308.041368,11.6241841 327.764092,91.4809335 0,107.849462 C0,125.626647 0,168.386278 0,236.128354 L1440,236.128354 C1440,186.80671 1440,152.915117 1440,134.453574 Z" id="Path-3" opacity="0.300571987"></path>
+                <path d="M0,234.606142 L1440,234.606142 C1440,195.254434 1440,161.975092 1440,134.768115 C1180,94.3578361 1093.15852,0.494521134 923.753938,0.494521134 C754.349357,0.494521134 455.292203,227.710923 0,149.742516 C0,171.843503 0,200.131378 0,234.606142 Z" id="Path-4" opacity="0.504789807"></path>
+            </g>
+        </g>
+    </g>
+</svg>
